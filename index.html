@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <title>Project 2</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="nav_items">Home</a>
+        <a href="#" class="nav_items">Leaderboard</a>
+        <button id="mode-toggle">Light/Dark</button>
+    </nav>
+    <header>
+        <h1>Quick Quiz Quest</h1>
+        <p id="welcome-message"></p>
+    </header>
+    <main>
+        <div class="content_box">
+            <form id="login-form">
+                <label>Username:</label>
+                <input type="text" id="username" placeholder="Name" required>
+
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="Password" required>
+
+                <button type="submit">Login</button>
+
+                <p id="error-message" style="color: red;"></p>
+
+                <!--Guest login-->
+                <div style="text-align: center; margin-top: 20px;">
+                    <p>or</p>
+                    <button type="button" id="guest-btn"
+                        style="background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+                        Play as Guest
+                    </button>
+            </form>
+        </div>
+    </main>
+
+    <div id="result-page" style="display: none">
+<h2>Quiz Completed!</h2>
+    <p id ="final-score"></p>
+    <button onclick="location.reload()">Play Again</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
