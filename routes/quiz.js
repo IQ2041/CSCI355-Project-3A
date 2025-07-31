@@ -29,8 +29,4 @@ router.get('/api', async (req, res) => {
   }
 });
 
-router.get('/quiz', (req, res) => {
-  res.render('quiz'); // No need to pass username here
-});
-
 module.exports = router;
