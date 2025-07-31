@@ -10,3 +10,5 @@ Roel: Connected API URL to retrieve  the questions while taking the quiz. Create
 Saul:
 Connecting what we have with mongodb so we have a database with all logged in players
 Created a team email and team mongodb account where we all have access to our "Central" DB and am able to connect to the db that was created. 
+Created the signin and sigup page to communicate with the mongodb backend to save the values of the username, eamil, password and confirmpassword and for the signin it is looking for the username and password to redirect to quiz page.
+Made the landing page for the app to be the signup page so users can signup or have the option to signin if they already have a account with us and if they dont want to create an account they have an option of siging in as a guest. 
