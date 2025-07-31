@@ -1,7 +1,8 @@
 # CSCI355-Project-3
 Creating a quiz website that loads a random amount of questions and communicates with a server for questiosn, answers, and leaderboards
 Website is deployed at: https://app.netlify.com/projects/iqquizapp/overview
-Ivan:
+
+Ivan: Worked with Roel to get the code into the live server application, troubleshooting with Roel for the additional code added and figuring out what could be changed and what couldn't. The sign-in and sign-up page collisions didn’t work due to the pathing being from Project 2 versions and required more absolute and direct paths. Additionally, I was the main decision-maker on GitHub who figured out how to properly merge the two code bases—Roel's and mine, along with Saul's database code—so they could function together. This is the reason for the 3A designation: due to the Project 2 codebase being used and changed so drastically, the merge and pull request options were unavailable without creating a fresh portfolio to run. I helped with creating the leaderboard however was unable to figure out the proper requesting without more time. 
 
 
 Roel: Connected API URL to retrieve  the questions while taking the quiz. Created a quiz.js file that picks randonm questions which pulls from the API and how it shows correct/incorrect feedback after clicking each answer choice. Implemented a timer when the user starts the quiz and the buttons to go back to the sign up page.
