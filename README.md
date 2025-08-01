@@ -13,3 +13,18 @@ Connecting what we have with mongodb so we have a database with all logged in pl
 Created a team email and team mongodb account where we all have access to our "Central" DB and am able to connect to the db that was created. 
 Created the signin and sigup page to communicate with the mongodb backend to save the values of the username, eamil, password and confirmpassword and for the signin it is looking for the username and password to redirect to quiz page.
 Made the landing page for the app to be the signup page so users can signup or have the option to signin if they already have a account with us and if they dont want to create an account they have an option of siging in as a guest. 
+Below if a collection of images to show that mongodb and the signin and signup page are connected and gives varifications that they were added inside of the database, I wasn't able to hide the passwords inside of the db due to the short amount of time of the class but I will include that in thee future. 
+Note: I had an issue with moving my files from project 2 repo to this repo, if you want to see how that code runs go to   
+
+https://github.com/IQ2041/CSCI355-Project-2/tree/database-test-saul
+
+
+To run I used npm run dev so it runs with nodemone
+
+<img width="2559" height="1368" alt="Screenshot 2025-07-31 194854" src="https://github.com/user-attachments/assets/ccdbb8d1-babb-493a-a12c-720bdf9e4e23" />
+
+<img width="2559" height="1359" alt="Screenshot 2025-07-31 194648" src="https://github.com/user-attachments/assets/5428517f-f8ba-4e23-a092-c2dcb4a0da7f" />
+
+<img width="2549" height="1354" alt="Screenshot 2025-07-31 194629" src="https://github.com/user-attachments/assets/f8d6980b-5838-4b56-8dfb-f7bf2d8932cf" />
+
+<img width="612" height="153" alt="Screenshot 2025-07-31 194929" src="https://github.com/user-attachments/assets/00d07cde-a65f-4909-a541-ec5dfc6f3078" />
